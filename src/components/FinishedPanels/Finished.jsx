@@ -6,50 +6,48 @@ const Image=()=> {
   const [showDetails, setShowDetails] = useState(false);
   const images = [
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Melamine ":"ميلانين",
-      src:  document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/1-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/1-imgAR.png',
+      title: "Melamine ",
+      src:  'https://wood.digit-tips.com/wp-content/uploads/2022/12/Melamine.png',
       alt: "image 1",
-      details:document.querySelectorAll('html')[0].lang==='en'? 'https://wood.digit-tips.com/wp-content/uploads/2022/09/2.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/2AR.png'
+      details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/1.png'
     },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Paper over laid":"الواح ورق للديكور",
+      title: "Paper over laid",
 
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/2-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/2-imgAR.png',
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/paper-over-laid.png',
         alt: 'image 2',
-        details: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/2.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/2AR.png'
+        details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/1.png'
       },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Veneered":"الواح بقشرة",
-
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/3-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/3-imgAR.png',
-        alt: 'image 3',
-        details: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/3.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/3AR.png'
-      },
+      title: "Veneered",
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/veneered.png',
+      alt: 'image 3',
+      details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/3.png'      },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"High glass + super matt":"الواح عالية اللمعان و الواح ذات لمعة مطفئة",
+      title:"High glass + super matt",
 
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/4-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/4-imgAR.png',
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/High-glass-super-matt.png',
         alt: 'image 4',
-        details: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png'
+        details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png'
       },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Moulded door skin":"طبع ابواب",
+      title:"Moulded door skin",
 
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/5-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/5-imgAR.png',
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/Moulded-door-skin.png',
         alt: 'image 5',
-        details: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png'
+        details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/5.png'
       },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Polyester faced panel":"الواح ملبس بولستر",
+      title: "Polyester faced panel",
 
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/6-img.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/6-imgAR.png',
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-24-at-3.19.53-PM.jpeg',
         alt: 'image 6',
-        details: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/6.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/6AR.png'
+        details: 'https://wood.digit-tips.com/wp-content/uploads/2022/09/6.png'
       },
     {
-      title: document.querySelectorAll('html')[0].lang==='en'?"Film faced plywood":"فيرفس",
+      title: "Film faced plywood",
 
-      src: document.querySelectorAll('html')[0].lang==='en'?'https://wood.digit-tips.com/wp-content/uploads/2022/09/7.png':'https://wood.digit-tips.com/wp-content/uploads/2022/09/7AR.png',
+      src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/Film-faced-plywood.png',
       alt: "Film faced plywood",
       details: null,
     },
