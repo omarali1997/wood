@@ -7,7 +7,6 @@ import european from '../../assets/10.png'
 import malaysian from '../../assets/11.png'
 import american from '../../assets/8.png'
 import Soft from '../../assets/12.png'
-import PANELS from '../../assets/PANELS-3.png'
 import WOODPANELSEN from '../../assets/WOOD-PANELSEN.png'
 import ImageGallery from '../FinishedPanels/Finished'
 
@@ -166,7 +165,7 @@ function Main() {
 
             }
             {
-                LaminatesShow === true ? <div className='img'> <img src={PANELS} alt='1' /></div> : ""
+                LaminatesShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/09/LaminatesEN.png' alt='1' /></div> : ""
 
             }
             {
