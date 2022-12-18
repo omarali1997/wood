@@ -6,7 +6,7 @@ const Image=()=> {
   const [showDetails, setShowDetails] = useState(false);
   const images = [
     {
-      title: "Melamine",
+      title: "Melamine ",
       src: "https://wood.digit-tips.com/wp-content/uploads/2022/09/1-img.png",
       alt: "image 1",
       details: "https://wood.digit-tips.com/wp-content/uploads/2022/09/2.png",
