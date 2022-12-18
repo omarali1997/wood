@@ -7,10 +7,12 @@
 }
 
 .hoverImg{
-    height: 30rem;
-    width: 40rem;
-    justify-content: flex-start;
     display: flex;
-    margin-left: 3rem;
+flex-direction: row;
+gap: 10px;
+}
 
+.card_finishedPanel{
+   width: 215px !important; 
+   /* background-color: #91492544 !important; */
 }
