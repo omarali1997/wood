@@ -173,7 +173,7 @@ function Main() {
 
             }
             {
-                africanShow === true ? <div className='img'> <img src={african} alt='1' /><Button variant="dark" onClick={(e) => {
+                africanShow === true ? <div className='img'> <img src={african} alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -183,7 +183,7 @@ function Main() {
 
             }
             {
-                europeanShow === true ? <div className='img'> <img src={european} alt='1' /><Button variant="dark" onClick={(e) => {
+                europeanShow === true ? <div className='img'> <img src={european} alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -193,7 +193,7 @@ function Main() {
 
             }
             {
-                malaysianShow === true ? <div className='img'> <img src={malaysian} alt='1' /><Button variant="dark" onClick={(e) => {
+                malaysianShow === true ? <div className='img'> <img src={malaysian} alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -203,7 +203,7 @@ function Main() {
 
             }
             {
-                americanShow === true ? <div className='img'> <img src={american} alt='1' /><Button variant="dark" onClick={(e) => {
+                americanShow === true ? <div className='img'> <img src={american} alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);

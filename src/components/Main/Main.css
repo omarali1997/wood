@@ -1,34 +1,156 @@
-.Main {
-    background-color: #7B513C5C;
-    height: 1000px  !important;
-    width: 100% !important;
-    border: solid #7B513C5C;
-    box-shadow: 10px 10px 10px #3b1e105c;
-    
+.buttonBlack{
+    width: 12rem;
+}
+@media only screen and (max-width: 600px) {
+
+    .Main {
+        background-color: #7B513C5C;
+        height: auto !important;
+        width: 600px !important;
+        border: solid #7B513C5C;
+        box-shadow: 10px 10px 10px #3b1e105c;
+
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .img img {
+        width: 18rem !important;
+        position: static;
+        display: flex;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
+    .img {
+        width: 45rem !important;
+    }
+
 }
 
-.btn-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media only screen and (min-width: 768px) {
+    .Main {
+        background-color: #7B513C5C;
+        height: auto !important;
+        width: 768px !important;
+        border: solid #7B513C5C;
+        box-shadow: 10px 10px 10px #3b1e105c;
+
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 150;
+    }
+
+    .img img {
+        width: 20rem !important;
+        position: static;
+        display: flex;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
+    .img {
+        width: 45rem !important;
+    }
 }
 
-.btn {
-    margin: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
+
+@media only screen and (min-width: 992px) {
+
+    .Main {
+        background-color: #7B513C5C;
+        height: auto !important;
+        width: 990px !important;
+        border: solid #7B513C5C;
+        box-shadow: 10px 10px 10px #3b1e105c;
+
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .img img {
+        width: 30rem !important;
+        position: static;
+        display: flex;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
+    .img {
+        width: 45rem !important;
+    }
 }
 
-.img img {
-    width: 45rem !important;
-    position: static;
-    display: flex;
-    margin-left: 2rem ;
-    padding-left: 2rem;
-}
-.img{
-    width: 45rem !important;
-}
+@media only screen and (min-width: 1200px) {
 
+    .Main {
+        background-color: #7B513C5C;
+        height: auto !important;
+        width: 1190px !important;
+        border: solid #7B513C5C;
+        box-shadow: 10px 10px 10px #3b1e105c;
+
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .img img {
+        width: 45rem !important;
+        position: static;
+        display: flex;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+
+    .img {
+        width: 5rem !important;
+    }
+
+}

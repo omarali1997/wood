@@ -1,17 +1,105 @@
-.hoverImg img{
-    width: 12.8rem;
-    justify-content: flex-start;
-    display: flex;
-    margin-left: -12px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hoverImg img {
+        width: 52px;
+        justify-content: flex-start;
+        display: flex;
 
+
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_finishedPanel {
+        width: 61px !important;
+        align-items: center;
+    }
+
+    .hoverImg h6 {
+        font-size: 6px;
+    }
 }
 
-.hoverImg{
-    display: flex;
-flex-direction: row;
-gap: 10px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hoverImg img {
+        width: 80px;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: -2px;
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card_finishedPanel {
+        width: 200px !important;
+        align-items: center;
+    }
+
+    .hoverImg h6 {
+        font-size: 9px;
+    }
 }
 
-.card_finishedPanel{
-   width: 215px !important; 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hoverImg img {
+        width: 80px;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: -2px;
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card_finishedPanel {
+        width: 132px !important;
+        align-items: center;
+    }
+
+    .hoverImg h6 {
+        font-size: 9px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .hoverImg img {
+        width: 145px;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: -12px;
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+    }
+
+    .card_finishedPanel {
+        width: 170px !important;
+        align-items: center;
+
+    }
+
+    .hoverImg h6 {
+        font-size: 15px;
+
+    }
 }
