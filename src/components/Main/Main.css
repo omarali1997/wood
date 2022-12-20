@@ -6,7 +6,7 @@
     .Main {
         background-color: #7B513C5C;
         height: auto !important;
-        width: 600px !important;
+        width: auto !important;
         border: solid #7B513C5C;
         box-shadow: 10px 10px 10px #3b1e105c;
 
@@ -44,7 +44,7 @@
     .Main {
         background-color: #7B513C5C;
         height: auto !important;
-        width: 768px !important;
+        width: auto !important;
         border: solid #7B513C5C;
         box-shadow: 10px 10px 10px #3b1e105c;
 
@@ -83,7 +83,7 @@
     .Main {
         background-color: #7B513C5C;
         height: auto !important;
-        width: 990px !important;
+        width: auto !important;
         border: solid #7B513C5C;
         box-shadow: 10px 10px 10px #3b1e105c;
 
@@ -121,7 +121,7 @@
     .Main {
         background-color: #7B513C5C;
         height: auto !important;
-        width: 1190px !important;
+        width: auto !important;
         border: solid #7B513C5C;
         box-shadow: 10px 10px 10px #3b1e105c;
 
