@@ -9,18 +9,18 @@ const Image = () => {
       title: "Hight Pressure Laminate hpi",
 
       src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate4.png',
-      alt: 'image 2',
+      alt: 'Hight',
     },
     {
       title: "Continuous Pressure Laminate",
       src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate3.png',
-      alt: 'image 3',
+      alt: 'Continuous',
     },
     {
       title: "Coppact Laminate",
 
       src: 'https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate2.png',
-      alt: 'image 4',
+      alt: 'Coppact',
     }
   ];
   return (
@@ -29,7 +29,7 @@ const Image = () => {
         <h6>
           Laminate
         </h6>
-        <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate1.png' alt='image 1' />
+        <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate1.png' alt='amina' />
       </div>
       <div className="hoverImg">
         {images.map((image) => (
@@ -38,7 +38,6 @@ const Image = () => {
               <Card.Header style={{ border: 'none' }}>
                 <Card.Text>
                   <h6>
-
                     {image.title}
                   </h6>
                 </Card.Text>
