@@ -9,6 +9,7 @@ import american from '../../assets/8.png'
 import Soft from '../../assets/12.png'
 import WOODPANELSEN from '../../assets/WOOD-PANELSEN.png'
 import ImageGallery from '../FinishedPanels/Finished'
+import Laminates from '../Laminates/Laminates'
 
 
 
@@ -78,22 +79,7 @@ function Main() {
                 >
                     Finished Panels
                 </Button>
-                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
-                    e.preventDefault();
-                    setrHardShow(false);
-                    setrSoftShow(false);
-                    setrFinishedShow(false);
-                    setrLaminatesShow(true);
-                    setrRawShow(false);
-
-                    setAfricanShow(false);
-                    setEuropeanShow(false);
-                    setMalaysianShow(false);
-                    setrAmericanShow(false);
-                }}
-                >
-                    Laminates
-                </Button>
+                
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
                     setrHardShow(false);
@@ -109,6 +95,22 @@ function Main() {
                 }}
                 >
                     Raw Panels
+                </Button>
+                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
+                    e.preventDefault();
+                    setrHardShow(false);
+                    setrSoftShow(false);
+                    setrFinishedShow(false);
+                    setrLaminatesShow(true);
+                    setrRawShow(false);
+
+                    setAfricanShow(false);
+                    setEuropeanShow(false);
+                    setMalaysianShow(false);
+                    setrAmericanShow(false);
+                }}
+                >
+                    Laminates
                 </Button>
             </div>
 
@@ -165,7 +167,7 @@ function Main() {
 
             }
             {
-                LaminatesShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/09/LaminatesEN.png' alt='1' /></div> : ""
+                LaminatesShow === true ? <Laminates/> : ""
 
             }
             {
