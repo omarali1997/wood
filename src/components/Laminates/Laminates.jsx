@@ -1,10 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "./Laminates.css";
-import Laminate1 from '../../assets/Laminate1.png'
-import Laminate2 from '../../assets/Laminate2.png'
-import Laminate3 from '../../assets/Laminate3.png'
-import Laminate4 from '../../assets/Laminate4.png'
+
 
 const Image = () => {
   const images = [
