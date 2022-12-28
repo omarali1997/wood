@@ -1,57 +1,109 @@
-/* Extra small devices (phones, 600px and down) */
-
-.main h6{
-    width: 50%;
-    justify-content: center;
-    margin-left: 18rem;
-    justify-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-}
-.main{
-    width: 50%;
-    justify-content: center;
-    margin-left: 20rem !important;
-    justify-items: center;
-}
-.hoverImg img {
-    width: 52px;
-    justify-content: flex-start;
-    display: flex;
-
-}
-
-.hoverImg {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.card_finishedPanel {
-    width: 100px !important;
-    align-items: center;
-}
-
-.hoverImg h6 {
-    font-size: 6px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .main h6{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-    }
-    .main{
-        width: 20%;
+@media only screen and (max-width: 600px){
+    .main {
+        width: 55%;
         justify-content: center;
-        margin-left: 0rem;
+        margin-left: 19%;
         justify-items: center;
     }
+
+    .h6main {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 90%;
+    }
+
     .hoverImg img {
-        width: 52px;
+        width: 125%;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: -9%;
+
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hoverImg h6 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .card_finishedPanel {
+        width: 95px !important;
+        align-items: center;
+        right: 3%;
+        height: 130px !important;
+    }
+
+}
+@media (min-width: 600px)  and (max-width: 768px){
+    .main {
+        width: 55%;
+        justify-content: center;
+        margin-left: 21%;
+        justify-items: center;
+    }
+
+    .h6main {
+        text-align: center;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;
+    }
+
+    .hoverImg img {
+        width: 110%;
+        justify-content: flex-start;
+        display: flex;
+        margin-left: -9%;
+
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hoverImg h6 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .card_finishedPanel {
+        width: 129px !important;
+        align-items: center;
+        right: 1.5%;
+        height: 100% !important;
+    }
+
+}
+
+@media  (min-width:768px) and (max-width: 992px){
+    .main {
+        width: 58%;
+        justify-content: center;
+        margin-left: 12rem;
+        justify-items: center;
+    }
+
+    .h6main {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;
+    }
+
+    .hoverImg img {
+        width: 110%;
         justify-content: flex-start;
         display: flex;
 
@@ -60,125 +112,106 @@
     .hoverImg {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 1%;
         justify-content: center;
-        align-items: center;
-    }
-
-    .card_finishedPanel {
-        width: 61px !important;
         align-items: center;
     }
 
     .hoverImg h6 {
-        font-size: 6px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .main h6{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-    }
-    .main{
-        width: 40%;
-        justify-content: center;
-        margin-left: 5rem;
-        justify-items: center;
-    }
-    .hoverImg img {
-        width: 80px;
-        justify-content: flex-start;
-        display: flex;
-        margin-left: -2px;
-    }
-
-    .hoverImg {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .card_finishedPanel {
-        width: 200px !important;
-        align-items: center;
-    }
-
-    .hoverImg h6 {
-        font-size: 9px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .main h6{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-    }
-    .main{
-        width: 40%;
-        justify-content: center;
-        margin-left: 5rem;
-        justify-items: center;
-    }
-    .hoverImg img {
-        width: 80px;
-        justify-content: flex-start;
-        display: flex;
-        margin-left: -2px;
-    }
-
-    .hoverImg {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .card_finishedPanel {
-        width: 132px !important;
-        align-items: center;
-    }
-
-    .hoverImg h6 {
-        font-size: 9px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .main h6{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-    }
-    .main{
-        width: 40%;
-        justify-content: center;
-        margin-left: 5rem;
-        justify-items: center;
-    }
-
-    .hoverImg img {
-        width: 145px;
-        justify-content: flex-start;
-        display: flex;
-        margin-left: -12px;
-    }
-
-    .hoverImg {
-        display: flex;
-        flex-direction: row;
-        gap: 9px;
+        text-align: center;
     }
 
     .card_finishedPanel {
         width: 170px !important;
         align-items: center;
+        right: 0%;
+        height: 155% !important;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .main {
+        width: 60%;
+        justify-content: center;
+        margin-left: 20%;
+        justify-items: center;
+    }
+
+    .h6main {
+        text-align: center;
+        font-size: 150%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
     }
 
-    .hoverImg h6 {
-        font-size: 15px;
+    .hoverImg img {
+        width: 100%;
+        justify-content: flex-start;
+        display: flex;
 
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hoverImg h6 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .card_finishedPanel {
+        width: 18.5% !important;
+        align-items: center;
+        right: 0%;
+        height: 100% !important;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1560px) {
+    .main {
+        width: 60%;
+        justify-content: center;
+        margin-left: 20%;
+        justify-items: center;
+    }
+
+    .h6main {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+
+    .hoverImg img {
+        width: 100%;
+        justify-content: flex-start;
+        display: flex;
+
+    }
+
+    .hoverImg {
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hoverImg h6 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .card_finishedPanel {
+        width: 19.5% !important;
+        align-items: center;
+        right: 0%;
+        height: 100% !important;
     }
 }
