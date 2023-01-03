@@ -63,6 +63,22 @@ function Main() {
                 >
                     Soft Wood
                 </Button>
+<Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
+                    e.preventDefault();
+                    setrHardShow(false);
+                    setrSoftShow(false);
+                    setrFinishedShow(false);
+                    setrLaminatesShow(false);
+                    setrRawShow(true);
+
+                    setAfricanShow(false);
+                    setEuropeanShow(false);
+                    setMalaysianShow(false);
+                    setrAmericanShow(false);
+                }}
+                >
+                    Raw Panels
+                </Button>
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
                     setrHardShow(false);
@@ -80,22 +96,7 @@ function Main() {
                     Finished Panels
                 </Button>
                 
-                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
-                    e.preventDefault();
-                    setrHardShow(false);
-                    setrSoftShow(false);
-                    setrFinishedShow(false);
-                    setrLaminatesShow(false);
-                    setrRawShow(true);
-
-                    setAfricanShow(false);
-                    setEuropeanShow(false);
-                    setMalaysianShow(false);
-                    setrAmericanShow(false);
-                }}
-                >
-                    Raw Panels
-                </Button>
+                
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
                     setrHardShow(false);
