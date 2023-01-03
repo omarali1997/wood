@@ -171,7 +171,7 @@ function Main() {
 
             }
             {
-                RawShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2023/01/WhatsApp_Image_2023-01-03_at_15.22.01-removebg-preview.png' alt='1' /></div> : ""
+                RawShow === true ? <div className='img'> <img src={WOODPANELSEN} alt='1' /></div> : ""
 
             }
             {
